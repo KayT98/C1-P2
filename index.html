@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Kay Truong</title>
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300&family=Kanit:wght@300&family=Roboto:wght@900&family=Saira+Condensed&display=swap');
+* {
+    line-height: 50px; 
+    box-sizing: border-box;
+    font-family: 'Handjet', cursive;
+}
+li {
+    display: inline; 
+    text-decoration: none; 
+    color: blue; 
+    margin-left: 30px;
+}
+h1 {
+    text-align: center;
+    font-size: 50px
+} 
+h3{ 
+    font-size: 2em;
+}
+a {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+    color: black;
+}
+a:visited {
+    color: blue;
+}
+div {
+    text-align: center; 
+    width: 50%; 
+    margin: auto;
+}
+.nav {
+    font-size: 25px;
+    padding: 10px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    margin-right: 50px; 
+    border: 5px outset black;
+    border-radius: 10px
+}
+
+.nav:hover {
+    background: pink;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    color: antiquewhite; 
+    position: sticky; 
+    top: 0; 
+    padding:5px; 
+    overflow:hidden; 
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+hr {width: 50%;}
+
+footer {
+    text-align: center; 
+    font-size: larger;
+    margin: 10px 10px
+}
+
+
+#skills {
+    border: 4px inset black;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    border-radius: 10px;
+}
+
+#top {
+    border: 4px inset black;
+    background-image: linear-gradient(to right top, #05372e, #005454, #007182, #008eb6, #12a9eb);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#top p {
+        text-align: center;
+        font-size: 25px;
+        color: antiquewhite
+}
+
+#skills p {
+        font-size: 25px;
+        color: blue;
+        font-weight: 900
+}
+input[type=text], textarea {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    font-size: 20px;
+    color: red;
+    font-family: 'Andale Mono', monospace
+}
+
+button {
+    width: 50%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+button:hover {
+    border: 2px solid black
+}
+
+video {
+    width: 500px;
+    height: 500px;
+}
+  </style>
+</head>
+
+<body style="background-color: gray; margin: 0;">
+  
+	<nav>
+		<ul style="list-style-type: none; white-space:nowrap">
+            <a href="#top" class="nav">ABOUT ME</a>	
+			<a href="#skills" class="nav">SKILLS</a>	
+            <a href="#contact" class="nav">CONTACT ME</a>	
+		</ul>
+	</nav>
+    <div class="intro">
+	    <h1 class="typingAni">Howdy! My name is kay</h1>
+      <br>
+        <img src="howdy.gif" alt="howdy" width="200" height="200">
+    </div>    
+    <br>
+	<div id="top">
+		<h1>A little bit about myself</h1>
+        <h6>**I don't take picture, but you can see me on LinkedIn, I like my name in lowercase XD**</h6>
+		<p>I graduated from Northeastern State University in Oklahoma, Spring 2022 with degree in Computer Science. A hardworking and passionate job seeker with 
+            strong organizational skills, 
+			with experience in HTML5 & CSS3, JavaScript(ES6), ReactJS, Front End Development and UI Design. 
+			I used to be an intern Seminaut Inc as a Software and Frontend Developer specialized in UXUI, 
+			I've gained a lots of valuable experience in Website Development during my time there. In my spare time, I study Frontend stuff and practice some coding 
+            for more experience.
+			I'm currently working as FC Associate at TUL5 and studying Amazon Software Development Training Program Cohort 4 at Correlation One.</p>
+
+        <h4>I signed NDA with my internship company but I think it has expired, you can see one of the UI tasks I've done using React, Tailwind/CSS</h4>
+
+            <video autoplay loop>
+                <source src="responsivebadges.mp4" title="badges" type="video/mp4">
+                Your browser does not support the video tag, please use other browsers, recommend Chrome.
+            </video>
+
+            <p>I mainly worked on UI since I was a member of UXUI Dev team, backend devs will take care of the rest.
+                I translated Figma file created by designers and imported the badges from 2 separate folders, will display 5 unlocked badges after users unlocked them through 
+                a certain activity, and hide others. 
+                Users can check other badges (both unlocked and locked) by clicking Display All Badges.
+                Responsive on both mobile and desktop. Tailwind was a pain to write but everything turned out great.
+                I'm pretty bad at designing, I can't really make good webpage without the helps of Desginers XD.
+            </p>
+	</div>
+
+    <br><br>
+               
+
+	<div id="skills">
+		<h1>My journey at Correlation One</h1>
+        <p>My study at Correlation One going great so far, I really enjoy it. As you can see in my About Me, I have some experiences in HTML/CSS,
+          so everything wasn't really hard for me to work on these two. Also, the program helps me refresh my memory and I have a chance to meet
+          lots of new cool friends. Despite being in different groups, we got together in a small group to help each other out.</p>
+	</div>
+
+	<div id="contact">
+		<h1>Best way to contact me</h1>
+        <h5>You can try clicking Send Message button :D</h5>
+
+        <form>
+                <input type="text" placeholder="Name" id="name" required>
+            
+                <input type="text" placeholder="Email" id="email" required> 
+            
+                <textarea rows="2" cols="50" name="message" placeholder="Write your message here....." required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+	</div>
+
+    <hr>
+
+    <footer>
+        <h3>Connect with me</h3>
+        <a href="https://www.linkedin.com/in/kay-truong-158824185/"><img src="linkedin.png" alt="linkedin" width="50" heigh="40"></a>
+        <a href="https://github.com/KayT98"><img src="github.png" alt="github" width="50" heigh="70"></a>
+    </footer>
+</body>
+</html>
